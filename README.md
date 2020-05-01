@@ -5,7 +5,7 @@ Create Database with name bytology_task
 
 import the table all_data
 
-Change the username and passord from  DBConnection.php file
+Change the username and password of database from  DBConnection.php file
 
 
 To Run the script go to path first and run
