@@ -9,8 +9,9 @@ class mathCalculation
 
     public function __construct($parameters)
     {
-        $this->width = (isset($parameters["w"])) ? $parameters["w"] : false;
-        $this->height = (isset($parameters["h"])) ? $parameters["h"] : false;
+        $this->width = (isset($parameters["w"])) ? (int)$parameters["w"] : false;
+        $this->height = (isset($parameters["h"])) ? (int)$parameters["h"] : false;
+
         if (!$this->width) {
             echo "You must Enter Width";
             die;
